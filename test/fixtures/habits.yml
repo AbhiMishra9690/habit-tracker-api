@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  each_time_spend_in_minutes: 1.5
+  count_in_a_day: 1
+
+two:
+  name: MyString
+  each_time_spend_in_minutes: 1.5
+  count_in_a_day: 1
