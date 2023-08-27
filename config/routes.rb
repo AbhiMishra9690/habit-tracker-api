@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :habits
+      resources :users
+      post 'auth/login', to: 'authentication#login'
     end
   end
   
